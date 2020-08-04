@@ -1,0 +1,30 @@
+2020-06-30 00:05:53,684 INFO Initializes the Raft protocol, raft-config info : {}
+
+2020-06-30 00:05:54,331 INFO ========= The raft protocol is starting... =========
+
+2020-06-30 00:05:55,245 INFO ========= The raft protocol start finished... =========
+
+2020-06-30 00:10:27,459 INFO ========= The raft protocol is starting to close =========
+
+2020-06-30 00:10:27,463 INFO ========= The raft protocol has been closed =========
+
+2020-06-30 14:59:28,918 INFO Initializes the Raft protocol, raft-config info : {}
+
+2020-06-30 14:59:29,391 INFO ========= The raft protocol is starting... =========
+
+2020-06-30 14:59:30,077 INFO ========= The raft protocol start finished... =========
+
+2020-06-30 15:04:03,938 INFO ========= The raft protocol is starting to close =========
+
+2020-06-30 15:04:03,940 INFO ========= The raft protocol has been closed =========
+
+2020-06-30 15:40:36,197 INFO Initializes the Raft protocol, raft-config info : {}
+
+2020-06-30 15:40:36,455 INFO ========= The raft protocol is starting... =========
+
+2020-06-30 15:40:36,920 INFO ========= The raft protocol start finished... =========
+
+2020-06-30 15:40:55,730 INFO ========= The raft protocol is starting to close =========
+
+2020-06-30 15:40:55,731 INFO ========= The raft protocol has been closed =========
+

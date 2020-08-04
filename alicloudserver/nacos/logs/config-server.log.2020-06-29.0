@@ -1,0 +1,330 @@
+2020-06-29 00:09:20,824 INFO notifyConnectTimeout:200
+
+2020-06-29 00:09:20,828 INFO notifySocketTimeout:8000
+
+2020-06-29 00:09:20,829 INFO isHealthCheck:true
+
+2020-06-29 00:09:20,829 INFO maxHealthCheckFailCount:12
+
+2020-06-29 00:09:20,829 INFO maxContent:10485760
+
+2020-06-29 00:09:23,836 INFO use local db service for init
+
+2020-06-29 00:09:25,125 ERROR Failed to start database '/Users/liyu/nacos/nacos/data/derby-data' with class loader org.springframework.boot.loader.LaunchedURLClassLoader@439f5b3d, see the next exception for details.
+
+java.sql.SQLException: Failed to start database '/Users/liyu/nacos/nacos/data/derby-data' with class loader org.springframework.boot.loader.LaunchedURLClassLoader@439f5b3d, see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.jdbc.InternalDriver.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver$LoginCallable.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.derby.iapi.error.StandardException: Failed to start database '/Users/liyu/nacos/nacos/data/derby-data' with class loader org.springframework.boot.loader.LaunchedURLClassLoader@439f5b3d, see the next exception for details.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 15 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Another instance of Derby may have already booted the database /Users/liyu/nacos/nacos/data/derby-data.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore$6.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.raw.RawStore.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager$5.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.access.RAMAccessManager.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.FileMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase$5.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.db.BasicDatabase.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection$4.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.jdbc.EmbedConnection.startPersistentService(Unknown Source)
+	... 12 common frames omitted
+2020-06-29 00:11:00,807 INFO notifyConnectTimeout:200
+
+2020-06-29 00:11:00,811 INFO notifySocketTimeout:8000
+
+2020-06-29 00:11:00,811 INFO isHealthCheck:true
+
+2020-06-29 00:11:00,811 INFO maxHealthCheckFailCount:12
+
+2020-06-29 00:11:00,811 INFO maxContent:10485760
+
+2020-06-29 00:11:03,852 INFO use local db service for init
+
+2020-06-29 00:11:04,713 WARN Schema 'NACOS' already exists.
+
+2020-06-29 00:11:04,755 WARN Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2020-06-29 00:11:04,798 WARN Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2020-06-29 00:11:04,816 WARN Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2020-06-29 00:11:04,822 WARN Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2020-06-29 00:11:04,828 WARN Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2020-06-29 00:11:04,836 WARN Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2020-06-29 00:11:04,841 WARN Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2020-06-29 00:11:04,849 WARN Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2020-06-29 00:11:04,854 WARN Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2020-06-29 00:11:04,862 WARN Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2020-06-29 00:11:04,871 WARN Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2020-06-29 00:11:04,876 WARN Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2020-06-29 00:11:04,884 WARN Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2020-06-29 00:11:04,891 WARN Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2020-06-29 00:11:04,895 WARN Table/View 'PERMISSIONS' already exists in Schema 'NACOS'.
+
+2020-06-29 00:11:04,957 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL200628174058350' defined on 'USERS'.
+
+2020-06-29 00:11:04,962 WARN The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'UK_USERNAME_ROLE' defined on 'ROLES'.
+
+2020-06-29 00:11:04,962 INFO use StandaloneDatabaseOperateImpl
+
+2020-06-29 00:11:06,248 WARN DumpService start
+
+2020-06-29 00:11:06,249 INFO start clear all config-info.
+
+2020-06-29 00:11:06,256 WARN clear all config-info failed.
+
+2020-06-29 00:11:06,257 WARN clear all config-info-tenant failed.
+
+2020-06-29 00:11:06,364 INFO [all-dump] 251369074770530304 / 251369074770530304
+
+2020-06-29 00:11:06,364 INFO start clear all config-info-beta.
+
+2020-06-29 00:11:06,364 WARN clear all config-info-beta failed.
+
+2020-06-29 00:11:06,364 WARN clear all config-info-beta-tenant failed.
+
+2020-06-29 00:11:06,550 INFO start clear all config-info-tag.
+
+2020-06-29 00:11:06,553 WARN clear all config-info-tag failed.
+
+2020-06-29 00:11:06,553 WARN clear all config-info-tag-tenant failed.
+
+2020-06-29 09:52:06,649 INFO notifyConnectTimeout:200
+
+2020-06-29 09:52:06,653 INFO notifySocketTimeout:8000
+
+2020-06-29 09:52:06,653 INFO isHealthCheck:true
+
+2020-06-29 09:52:06,653 INFO maxHealthCheckFailCount:12
+
+2020-06-29 09:52:06,653 INFO maxContent:10485760
+
+2020-06-29 09:52:06,653 INFO spring.datasource.platform:mysql
+
+2020-06-29 09:52:10,850 WARN DumpService start
+
+2020-06-29 09:52:10,850 INFO start clear all config-info.
+
+2020-06-29 09:52:10,857 WARN clear all config-info failed.
+
+2020-06-29 09:52:10,857 WARN clear all config-info-tenant failed.
+
+2020-06-29 09:52:10,864 INFO start clear all config-info-beta.
+
+2020-06-29 09:52:10,864 WARN clear all config-info-beta failed.
+
+2020-06-29 09:52:10,865 WARN clear all config-info-beta-tenant failed.
+
+2020-06-29 09:52:10,868 INFO start clear all config-info-tag.
+
+2020-06-29 09:52:10,869 WARN clear all config-info-tag failed.
+
+2020-06-29 09:52:10,869 WARN clear all config-info-tag-tenant failed.
+
+2020-06-29 23:29:51,374 INFO notifyConnectTimeout:200
+
+2020-06-29 23:29:51,378 INFO notifySocketTimeout:8000
+
+2020-06-29 23:29:51,378 INFO isHealthCheck:true
+
+2020-06-29 23:29:51,378 INFO maxHealthCheckFailCount:12
+
+2020-06-29 23:29:51,378 INFO maxContent:10485760
+
+2020-06-29 23:29:51,379 INFO spring.datasource.platform:mysql
+
+2020-06-29 23:29:56,616 WARN DumpService start
+
+2020-06-29 23:29:56,617 INFO start clear all config-info.
+
+2020-06-29 23:29:56,627 INFO clear all config-info success.
+
+2020-06-29 23:29:56,630 INFO clear all config-info-tenant success.
+
+2020-06-29 23:29:56,665 INFO [all-dump] 6 / 6
+
+2020-06-29 23:29:56,665 INFO start clear all config-info-beta.
+
+2020-06-29 23:29:56,665 WARN clear all config-info-beta failed.
+
+2020-06-29 23:29:56,665 WARN clear all config-info-beta-tenant failed.
+
+2020-06-29 23:29:56,670 INFO start clear all config-info-tag.
+
+2020-06-29 23:29:56,670 WARN clear all config-info-tag failed.
+
+2020-06-29 23:29:56,671 WARN clear all config-info-tag-tenant failed.
+
+2020-06-29 23:29:56,685 WARN initialDelay:131
+
+2020-06-29 23:52:18,767 INFO notifyConnectTimeout:200
+
+2020-06-29 23:52:18,772 INFO notifySocketTimeout:8000
+
+2020-06-29 23:52:18,772 INFO isHealthCheck:true
+
+2020-06-29 23:52:18,772 INFO maxHealthCheckFailCount:12
+
+2020-06-29 23:52:18,772 INFO maxContent:10485760
+
+2020-06-29 23:52:18,772 INFO spring.datasource.platform:mysql
+
+2020-06-29 23:52:23,549 WARN DumpService start
+
+2020-06-29 23:52:23,550 INFO start clear all config-info.
+
+2020-06-29 23:52:23,558 INFO clear all config-info success.
+
+2020-06-29 23:52:23,559 INFO clear all config-info-tenant success.
+
+2020-06-29 23:52:23,593 INFO [all-dump] 6 / 6
+
+2020-06-29 23:52:23,593 INFO start clear all config-info-beta.
+
+2020-06-29 23:52:23,594 WARN clear all config-info-beta failed.
+
+2020-06-29 23:52:23,594 WARN clear all config-info-beta-tenant failed.
+
+2020-06-29 23:52:23,597 INFO start clear all config-info-tag.
+
+2020-06-29 23:52:23,597 WARN clear all config-info-tag failed.
+
+2020-06-29 23:52:23,597 WARN clear all config-info-tag-tenant failed.
+
+2020-06-29 23:52:23,602 WARN initialDelay:343
+
+2020-06-29 23:54:02,336 INFO notifyConnectTimeout:200
+
+2020-06-29 23:54:02,344 INFO notifySocketTimeout:8000
+
+2020-06-29 23:54:02,344 INFO isHealthCheck:true
+
+2020-06-29 23:54:02,344 INFO maxHealthCheckFailCount:12
+
+2020-06-29 23:54:02,344 INFO maxContent:10485760
+
+2020-06-29 23:54:02,345 INFO spring.datasource.platform:mysql
+
+2020-06-29 23:54:06,464 WARN DumpService start
+
+2020-06-29 23:54:06,465 INFO start clear all config-info.
+
+2020-06-29 23:54:06,474 INFO clear all config-info success.
+
+2020-06-29 23:54:06,476 INFO clear all config-info-tenant success.
+
+2020-06-29 23:54:06,505 INFO [all-dump] 6 / 6
+
+2020-06-29 23:54:06,505 INFO start clear all config-info-beta.
+
+2020-06-29 23:54:06,505 WARN clear all config-info-beta failed.
+
+2020-06-29 23:54:06,505 WARN clear all config-info-beta-tenant failed.
+
+2020-06-29 23:54:06,508 INFO start clear all config-info-tag.
+
+2020-06-29 23:54:06,508 WARN clear all config-info-tag failed.
+
+2020-06-29 23:54:06,508 WARN clear all config-info-tag-tenant failed.
+
+2020-06-29 23:54:06,514 WARN initialDelay:194
+
+2020-06-29 23:55:49,093 INFO notifyConnectTimeout:200
+
+2020-06-29 23:55:49,097 INFO notifySocketTimeout:8000
+
+2020-06-29 23:55:49,097 INFO isHealthCheck:true
+
+2020-06-29 23:55:49,097 INFO maxHealthCheckFailCount:12
+
+2020-06-29 23:55:49,097 INFO maxContent:10485760
+
+2020-06-29 23:55:49,098 INFO spring.datasource.platform:mysql
+
+2020-06-29 23:55:53,422 WARN DumpService start
+
+2020-06-29 23:55:53,423 INFO start clear all config-info.
+
+2020-06-29 23:55:53,429 INFO clear all config-info success.
+
+2020-06-29 23:55:53,430 INFO clear all config-info-tenant success.
+
+2020-06-29 23:55:53,460 INFO [all-dump] 6 / 6
+
+2020-06-29 23:55:53,460 INFO start clear all config-info-beta.
+
+2020-06-29 23:55:53,460 WARN clear all config-info-beta failed.
+
+2020-06-29 23:55:53,460 WARN clear all config-info-beta-tenant failed.
+
+2020-06-29 23:55:53,463 INFO start clear all config-info-tag.
+
+2020-06-29 23:55:53,463 WARN clear all config-info-tag failed.
+
+2020-06-29 23:55:53,463 WARN clear all config-info-tag-tenant failed.
+
+2020-06-29 23:55:53,474 WARN initialDelay:277
+

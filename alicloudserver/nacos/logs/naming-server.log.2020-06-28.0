@@ -1,0 +1,286 @@
+2020-06-28 17:40:59,581 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2020-06-28 17:40:59,581 INFO listen for service meta change
+
+2020-06-28 17:47:21,806 INFO creating empty service public:DEFAULT_GROUP@@user-service
+
+2020-06-28 17:47:21,847 INFO [NEW-SERVICE] {"appName":"","checksum":"229b46833ecde2f46b568e87c3610fa0","clusterMap":{},"empty":true,"enabled":true,"finalizeCount":0,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1593337641812,"metadata":{},"name":"DEFAULT_GROUP@@user-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-06-28 17:47:21,877 WARN cluster: DEFAULT not found, ip: {"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.31.117#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.31.117","ipDeleteTimeout":30000,"lastBeat":1593337641798,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2020-06-28 17:47:21,885 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.31.117#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.31.117","ipDeleteTimeout":30000,"lastBeat":1593337641798,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}]}
+
+2020-06-28 17:48:12,819 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[]}
+
+2020-06-28 17:50:19,595 WARN namespace : public, [DEFAULT_GROUP@@user-service] services are automatically cleaned
+
+2020-06-28 17:50:19,642 INFO [DEAD-SERVICE] {"appName":"","checksum":"a063d0e5a8c35aa0b61b7118a0e8aec1","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"empty":true,"healthCheckTask":{"cancelled":true,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":4599,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1593337816721},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","sitegroup":"","useIPPort4Check":true}},"empty":true,"enabled":true,"finalizeCount":5,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1593337692820,"metadata":{},"name":"DEFAULT_GROUP@@user-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-06-28 17:56:27,147 INFO creating empty service public:DEFAULT_GROUP@@user-service
+
+2020-06-28 17:56:27,148 INFO [NEW-SERVICE] {"appName":"","checksum":"229b46833ecde2f46b568e87c3610fa0","clusterMap":{},"empty":true,"enabled":true,"finalizeCount":0,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1593338187147,"metadata":{},"name":"DEFAULT_GROUP@@user-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-06-28 17:56:27,148 WARN cluster: DEFAULT not found, ip: {"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.31.117#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.31.117","ipDeleteTimeout":30000,"lastBeat":1593338187146,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2020-06-28 17:56:27,149 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.31.117#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.31.117","ipDeleteTimeout":30000,"lastBeat":1593338187146,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}]}
+
+2020-06-28 17:58:26,012 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[]}
+
+2020-06-28 17:58:33,074 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.31.117#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.31.117","ipDeleteTimeout":30000,"lastBeat":1593338313074,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}]}
+
+2020-06-28 18:03:29,320 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[]}
+
+2020-06-28 18:03:35,492 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.31.117#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.31.117","ipDeleteTimeout":30000,"lastBeat":1593338615490,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}]}
+
+2020-06-28 18:06:01,389 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[]}
+
+2020-06-28 18:06:07,626 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.31.117#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.31.117","ipDeleteTimeout":30000,"lastBeat":1593338767626,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}]}
+
+2020-06-28 18:06:59,348 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[]}
+
+2020-06-28 20:34:39,982 WARN namespace : public, [DEFAULT_GROUP@@user-service] services are automatically cleaned
+
+2020-06-28 20:34:40,041 INFO [DEAD-SERVICE] {"appName":"","checksum":"a063d0e5a8c35aa0b61b7118a0e8aec1","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"empty":true,"healthCheckTask":{"cancelled":true,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":2184,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1593347678377},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","sitegroup":"","useIPPort4Check":true}},"empty":true,"enabled":true,"finalizeCount":5,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1593338819349,"metadata":{},"name":"DEFAULT_GROUP@@user-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-06-28 22:30:51,063 INFO creating empty service public:DEFAULT_GROUP@@user-service
+
+2020-06-28 22:30:51,076 INFO [NEW-SERVICE] {"appName":"","checksum":"229b46833ecde2f46b568e87c3610fa0","clusterMap":{},"empty":true,"enabled":true,"finalizeCount":0,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1593354651066,"metadata":{},"name":"DEFAULT_GROUP@@user-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-06-28 22:30:51,089 WARN cluster: DEFAULT not found, ip: {"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8083#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593354651053,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8083,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2020-06-28 22:30:51,092 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8083#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593354651053,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8083,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}]}
+
+2020-06-28 22:31:24,923 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8083#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593354681115,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8083,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0},{"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593354684923,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}]}
+
+2020-06-28 22:31:40,982 INFO creating empty service public:DEFAULT_GROUP@@product-service
+
+2020-06-28 22:31:40,984 INFO [NEW-SERVICE] {"appName":"","checksum":"67af150628b2414d8458bc7c6dec3e00","clusterMap":{},"empty":true,"enabled":true,"finalizeCount":0,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1593354700982,"metadata":{},"name":"DEFAULT_GROUP@@product-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-06-28 22:31:40,986 WARN cluster: DEFAULT not found, ip: {"app":"product-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8082#DEFAULT#DEFAULT_GROUP@@product-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593354700981,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8082,"serviceName":"DEFAULT_GROUP@@product-service","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2020-06-28 22:31:40,986 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@product-service, value: {"instanceList":[{"app":"product-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8082#DEFAULT#DEFAULT_GROUP@@product-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593354700981,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8082,"serviceName":"DEFAULT_GROUP@@product-service","tenant":"","weight":1.0}]}
+
+2020-06-28 22:32:08,727 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://192.168.31.117:8848/nacos/v1/ns/distro/datum. code:500 msg: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.31.117:8848 [/192.168.31.117] failed: Operation timed out (Connection timed out)
+	at com.alibaba.nacos.naming.misc.NamingProxy.syncData(NamingProxy.java:132)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.DataSyncer.lambda$submit$0(DataSyncer.java:117)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-28 22:32:56,642 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://192.168.31.117:8848/nacos/v1/ns/distro/datum. code:500 msg: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.31.117:8848 [/192.168.31.117] failed: Operation timed out (Connection timed out)
+	at com.alibaba.nacos.naming.misc.NamingProxy.syncData(NamingProxy.java:132)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.DataSyncer.lambda$submit$0(DataSyncer.java:117)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-28 22:37:15,213 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@product-service, value: {"instanceList":[]}
+
+2020-06-28 22:37:30,541 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@product-service, value: {"instanceList":[{"app":"product-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8082#DEFAULT#DEFAULT_GROUP@@product-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593355050541,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8082,"serviceName":"DEFAULT_GROUP@@product-service","tenant":"","weight":1.0}]}
+
+2020-06-28 22:38:31,600 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://192.168.31.117:8848/nacos/v1/ns/distro/datum. code:500 msg: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.31.117:8848 [/192.168.31.117] failed: Operation timed out (Connection timed out)
+	at com.alibaba.nacos.naming.misc.NamingProxy.syncData(NamingProxy.java:132)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.DataSyncer.lambda$submit$0(DataSyncer.java:117)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-28 22:40:08,829 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593355206416,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}]}
+
+2020-06-28 22:40:08,869 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[]}
+
+2020-06-28 22:40:08,931 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@product-service, value: {"instanceList":[]}
+
+2020-06-28 22:41:24,611 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://192.168.31.117:8848/nacos/v1/ns/distro/datum. code:500 msg: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.31.117:8848 [/192.168.31.117] failed: Operation timed out (Connection timed out)
+	at com.alibaba.nacos.naming.misc.NamingProxy.syncData(NamingProxy.java:132)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.DataSyncer.lambda$submit$0(DataSyncer.java:117)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-28 22:41:24,698 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://192.168.31.117:8848/nacos/v1/ns/distro/datum. code:500 msg: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.31.117:8848 [/192.168.31.117] failed: Operation timed out (Connection timed out)
+	at com.alibaba.nacos.naming.misc.NamingProxy.syncData(NamingProxy.java:132)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.DataSyncer.lambda$submit$0(DataSyncer.java:117)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-28 22:42:10,065 WARN namespace : public, [DEFAULT_GROUP@@user-service] services are automatically cleaned
+
+2020-06-28 22:42:10,082 WARN namespace : public, [DEFAULT_GROUP@@product-service] services are automatically cleaned
+
+2020-06-28 22:42:10,088 INFO [DEAD-SERVICE] {"appName":"","checksum":"a063d0e5a8c35aa0b61b7118a0e8aec1","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"empty":true,"healthCheckTask":{"cancelled":true,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":3622,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1593355329041},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","sitegroup":"","useIPPort4Check":true}},"empty":true,"enabled":true,"finalizeCount":5,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1593355208869,"metadata":{},"name":"DEFAULT_GROUP@@user-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-06-28 22:42:10,089 INFO [DEAD-SERVICE] {"appName":"","checksum":"877a5913a7d07161e4d224199fbc1952","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"empty":true,"healthCheckTask":{"cancelled":true,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":3722,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1593355326800},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","serviceName":"DEFAULT_GROUP@@product-service","sitegroup":"","useIPPort4Check":true}},"empty":true,"enabled":true,"finalizeCount":5,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1593355208932,"metadata":{},"name":"DEFAULT_GROUP@@product-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-06-28 23:33:41,588 INFO creating empty service public:DEFAULT_GROUP@@user_service
+
+2020-06-28 23:33:41,595 INFO [NEW-SERVICE] {"appName":"","checksum":"9b79b2e6ffa620c5ee51ee84812e6cfb","clusterMap":{},"empty":true,"enabled":true,"finalizeCount":0,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1593358421589,"metadata":{},"name":"DEFAULT_GROUP@@user_service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-06-28 23:33:41,598 WARN cluster: DEFAULT not found, ip: {"app":"user_service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8081#DEFAULT#DEFAULT_GROUP@@user_service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593358421583,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user_service","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2020-06-28 23:33:41,598 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user_service, value: {"instanceList":[{"app":"user_service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8081#DEFAULT#DEFAULT_GROUP@@user_service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593358421583,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user_service","tenant":"","weight":1.0}]}
+
+2020-06-28 23:33:45,755 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user_service, value: {"instanceList":[]}
+
+2020-06-28 23:34:57,065 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://192.168.31.117:8848/nacos/v1/ns/distro/datum. code:500 msg: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.31.117:8848 [/192.168.31.117] failed: Operation timed out (Connection timed out)
+	at com.alibaba.nacos.naming.misc.NamingProxy.syncData(NamingProxy.java:132)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.DataSyncer.lambda$submit$0(DataSyncer.java:117)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-28 23:36:10,111 WARN namespace : public, [DEFAULT_GROUP@@user_service] services are automatically cleaned
+
+2020-06-28 23:36:10,118 INFO [DEAD-SERVICE] {"appName":"","checksum":"7042ed4bfb07e53864d3a8e32c08d72c","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"empty":true,"healthCheckTask":{"cancelled":true,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":2205,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1593358569528},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","serviceName":"DEFAULT_GROUP@@user_service","sitegroup":"","useIPPort4Check":true}},"empty":true,"enabled":true,"finalizeCount":5,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1593358425756,"metadata":{},"name":"DEFAULT_GROUP@@user_service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-06-28 23:46:03,216 INFO creating empty service public:DEFAULT_GROUP@@user-service
+
+2020-06-28 23:46:03,219 INFO [NEW-SERVICE] {"appName":"","checksum":"229b46833ecde2f46b568e87c3610fa0","clusterMap":{},"empty":true,"enabled":true,"finalizeCount":0,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1593359163216,"metadata":{},"name":"DEFAULT_GROUP@@user-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-06-28 23:46:03,219 WARN cluster: DEFAULT not found, ip: {"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593359163215,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2020-06-28 23:46:03,220 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593359163215,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}]}
+
+2020-06-28 23:46:23,033 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[]}
+
+2020-06-28 23:47:12,047 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593359232047,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}]}
+
+2020-06-28 23:47:19,629 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://192.168.31.117:8848/nacos/v1/ns/distro/datum. code:500 msg: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.31.117:8848 [/192.168.31.117] failed: Operation timed out (Connection timed out)
+	at com.alibaba.nacos.naming.misc.NamingProxy.syncData(NamingProxy.java:132)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.DataSyncer.lambda$submit$0(DataSyncer.java:117)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-28 23:47:25,249 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[]}
+
+2020-06-28 23:48:30,342 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593359310342,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}]}
+
+2020-06-28 23:48:41,394 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://192.168.31.117:8848/nacos/v1/ns/distro/datum. code:500 msg: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.31.117:8848 [/192.168.31.117] failed: Operation timed out (Connection timed out)
+	at com.alibaba.nacos.naming.misc.NamingProxy.syncData(NamingProxy.java:132)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.DataSyncer.lambda$submit$0(DataSyncer.java:117)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-28 23:48:43,342 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[]}
+
+2020-06-28 23:49:25,701 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593359365700,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}]}
+
+2020-06-28 23:49:37,446 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[]}
+
+2020-06-28 23:50:00,069 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://192.168.31.117:8848/nacos/v1/ns/distro/datum. code:500 msg: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.31.117:8848 [/192.168.31.117] failed: Operation timed out (Connection timed out)
+	at com.alibaba.nacos.naming.misc.NamingProxy.syncData(NamingProxy.java:132)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.DataSyncer.lambda$submit$0(DataSyncer.java:117)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-28 23:50:30,207 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593359430207,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}]}
+
+2020-06-28 23:50:34,039 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[]}
+
+2020-06-28 23:51:10,138 WARN namespace : public, [DEFAULT_GROUP@@user-service] services are automatically cleaned
+
+2020-06-28 23:51:10,144 INFO [DEAD-SERVICE] {"appName":"","checksum":"a063d0e5a8c35aa0b61b7118a0e8aec1","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"empty":true,"healthCheckTask":{"cancelled":true,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":3458,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1593359467815},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","sitegroup":"","useIPPort4Check":true}},"empty":true,"enabled":true,"finalizeCount":5,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1593359434040,"metadata":{},"name":"DEFAULT_GROUP@@user-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-06-28 23:51:45,668 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://192.168.31.117:8848/nacos/v1/ns/distro/datum. code:500 msg: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.31.117:8848 [/192.168.31.117] failed: Operation timed out (Connection timed out)
+	at com.alibaba.nacos.naming.misc.NamingProxy.syncData(NamingProxy.java:132)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.DataSyncer.lambda$submit$0(DataSyncer.java:117)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-28 23:52:49,128 INFO creating empty service public:DEFAULT_GROUP@@user-service
+
+2020-06-28 23:52:49,129 INFO [NEW-SERVICE] {"appName":"","checksum":"229b46833ecde2f46b568e87c3610fa0","clusterMap":{},"empty":true,"enabled":true,"finalizeCount":0,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1593359569128,"metadata":{},"name":"DEFAULT_GROUP@@user-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2020-06-28 23:52:49,129 WARN cluster: DEFAULT not found, ip: {"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593359569127,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2020-06-28 23:52:49,130 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"app":"user-service","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593359569127,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}]}
+
+2020-06-28 23:52:54,792 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[]}
+
+2020-06-28 23:54:04,769 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://192.168.31.117:8848/nacos/v1/ns/distro/datum. code:500 msg: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.31.117:8848 [/192.168.31.117] failed: Operation timed out (Connection timed out)
+	at com.alibaba.nacos.naming.misc.NamingProxy.syncData(NamingProxy.java:132)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.DataSyncer.lambda$submit$0(DataSyncer.java:117)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-28 23:55:08,656 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"app":"unknown","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.101.35#8081#DEFAULT#DEFAULT_GROUP@@user-service","instanceIdGenerator":"","ip":"192.168.101.35","ipDeleteTimeout":30000,"lastBeat":1593359708655,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8081,"serviceName":"DEFAULT_GROUP@@user-service","tenant":"","weight":1.0}]}
+
+2020-06-28 23:55:34,393 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@user-service, value: {"instanceList":[]}
+
+2020-06-28 23:56:24,320 WARN NamingProxy
+
+java.io.IOException: failed to req API:http://192.168.31.117:8848/nacos/v1/ns/distro/datum. code:500 msg: org.apache.http.conn.HttpHostConnectException: Connect to 192.168.31.117:8848 [/192.168.31.117] failed: Operation timed out (Connection timed out)
+	at com.alibaba.nacos.naming.misc.NamingProxy.syncData(NamingProxy.java:132)
+	at com.alibaba.nacos.naming.consistency.ephemeral.distro.DataSyncer.lambda$submit$0(DataSyncer.java:117)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-28 23:57:40,138 WARN namespace : public, [DEFAULT_GROUP@@user-service] services are automatically cleaned
+
+2020-06-28 23:57:40,144 INFO [DEAD-SERVICE] {"appName":"","checksum":"a063d0e5a8c35aa0b61b7118a0e8aec1","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"empty":true,"healthCheckTask":{"cancelled":true,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":2210,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1593359859041},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","serviceName":"DEFAULT_GROUP@@user-service","sitegroup":"","useIPPort4Check":true}},"empty":true,"enabled":true,"finalizeCount":5,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1593359734395,"metadata":{},"name":"DEFAULT_GROUP@@user-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+

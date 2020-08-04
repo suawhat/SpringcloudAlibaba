@@ -1,0 +1,136 @@
+2020-06-28 17:47:21,889 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.117:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 17:47:21,894 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.31.117:8081_true,
+
+2020-06-28 17:48:12,820 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.117:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 17:48:12,820 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2020-06-28 17:56:27,149 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.117:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 17:56:27,149 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.31.117:8081_true,
+
+2020-06-28 17:58:26,013 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.117:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 17:58:26,014 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2020-06-28 17:58:33,075 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.117:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 17:58:33,075 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.31.117:8081_true,
+
+2020-06-28 18:03:29,323 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.117:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 18:03:29,323 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2020-06-28 18:03:35,492 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.117:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 18:03:35,492 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.31.117:8081_true,
+
+2020-06-28 18:06:01,390 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.117:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 18:06:01,390 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2020-06-28 18:06:07,626 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.31.117:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 18:06:07,626 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.31.117:8081_true,
+
+2020-06-28 18:06:59,349 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.31.117:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 18:06:59,349 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2020-06-28 22:30:51,094 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.35:8083:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 22:30:51,098 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.101.35:8083_true,
+
+2020-06-28 22:31:24,926 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 22:31:24,926 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.101.35:8083_true,192.168.101.35:8081_true,
+
+2020-06-28 22:31:40,986 INFO DEFAULT_GROUP@@product-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.35:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 22:31:40,986 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@product-service, ips: 192.168.101.35:8082_true,
+
+2020-06-28 22:37:15,214 INFO DEFAULT_GROUP@@product-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.35:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 22:37:15,214 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@product-service, ips: 
+
+2020-06-28 22:37:30,542 INFO DEFAULT_GROUP@@product-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.35:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 22:37:30,542 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@product-service, ips: 192.168.101.35:8082_true,
+
+2020-06-28 22:40:08,830 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.35:8083:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 22:40:08,830 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.101.35:8081_true,
+
+2020-06-28 22:40:08,869 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 22:40:08,870 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2020-06-28 22:40:08,932 INFO DEFAULT_GROUP@@product-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.35:8082:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 22:40:08,932 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@product-service, ips: 
+
+2020-06-28 23:33:41,601 INFO DEFAULT_GROUP@@user_service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 23:33:41,602 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user_service, ips: 192.168.101.35:8081_true,
+
+2020-06-28 23:33:45,755 INFO DEFAULT_GROUP@@user_service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 23:33:45,756 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user_service, ips: 
+
+2020-06-28 23:46:03,221 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 23:46:03,221 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.101.35:8081_true,
+
+2020-06-28 23:46:23,033 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 23:46:23,033 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2020-06-28 23:47:12,048 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 23:47:12,048 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.101.35:8081_true,
+
+2020-06-28 23:47:25,252 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 23:47:25,253 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2020-06-28 23:48:30,343 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 23:48:30,343 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.101.35:8081_true,
+
+2020-06-28 23:48:43,343 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 23:48:43,343 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2020-06-28 23:49:25,704 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 23:49:25,705 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.101.35:8081_true,
+
+2020-06-28 23:49:37,446 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 23:49:37,447 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2020-06-28 23:50:30,207 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 23:50:30,207 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.101.35:8081_true,
+
+2020-06-28 23:50:34,039 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 23:50:34,040 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2020-06-28 23:52:49,130 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 23:52:49,130 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.101.35:8081_true,
+
+2020-06-28 23:52:54,794 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 23:52:54,794 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2020-06-28 23:55:08,658 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 23:55:08,658 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.101.35:8081_true,
+
+2020-06-28 23:55:34,395 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.35:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-06-28 23:55:34,395 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+

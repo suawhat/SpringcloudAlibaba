@@ -1,0 +1,16 @@
+service-url:
+  nacos-user-service: http://user-service
+
+spring:
+  profiles:
+    active: dev
+  datasource:
+    initialization-mode: never
+    password: 2951410
+    url: jdbc:mysql://localhost:3306/demo?serverTimezone=GMT%2B8
+    username: root
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-enums-package: com.cloud.alibaba.product.db.emums

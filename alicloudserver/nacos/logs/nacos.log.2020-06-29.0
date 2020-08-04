@@ -1,0 +1,26 @@
+2020-06-30 00:04:06,437 INFO [capacityManagement] start correct usage
+
+2020-06-30 00:04:06,508 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-06-30 00:04:06,541 WARN clearConfigHistory start
+
+2020-06-30 00:10:27,407 WARN [HttpClientManager] Start destroying HttpClient
+
+2020-06-30 00:10:27,407 WARN [WatchFileCenter] start close
+
+2020-06-30 00:10:27,409 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2020-06-30 00:10:27,410 WARN [NotifyCenter] Start destroying Publisher
+
+2020-06-30 00:10:27,410 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/liyu/nacos/nacos/conf
+
+2020-06-30 00:10:27,410 WARN [WatchFileCenter] already closed
+
+2020-06-30 00:10:27,416 WARN [NotifyCenter] Destruction of the end
+
+2020-06-30 00:10:27,425 WARN [HttpClientManager] Destruction of the end
+
+2020-06-30 00:10:27,458 INFO Shutting down ExecutorService 'taskScheduler'
+
+2020-06-30 00:10:27,471 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+

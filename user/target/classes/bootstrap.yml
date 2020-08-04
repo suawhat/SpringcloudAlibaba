@@ -1,0 +1,20 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: user-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        #group: DEVELOP_GROUP
+#        namespace: 74acaf1e-c750-43dd-ad0c-18ab3e139845
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

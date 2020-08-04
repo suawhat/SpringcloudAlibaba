@@ -1,0 +1,78 @@
+2020-06-28 17:47:22,894 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 17:48:13,825 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 17:56:28,151 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 17:58:27,019 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 17:58:34,076 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 18:03:30,327 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 18:03:36,493 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 18:06:02,393 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 18:06:08,628 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 18:07:00,349 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 22:30:52,104 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 22:31:25,928 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 22:31:41,990 INFO DEFAULT_GROUP@@product-service is changed, add it to push queue.
+
+2020-06-28 22:37:16,218 INFO DEFAULT_GROUP@@product-service is changed, add it to push queue.
+
+2020-06-28 22:37:31,545 INFO DEFAULT_GROUP@@product-service is changed, add it to push queue.
+
+2020-06-28 22:40:09,834 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 22:40:09,849 INFO serviceName: DEFAULT_GROUP@@user-service changed, schedule push for: 127.0.0.1:63972, agent: Nacos-Java-Client:v1.1.4, key: 127.0.0.1,63972,242689675018910
+
+2020-06-28 22:40:09,849 INFO send udp packet: 127.0.0.1,63972,242689675018910
+
+2020-06-28 22:40:09,934 INFO DEFAULT_GROUP@@product-service is changed, add it to push queue.
+
+2020-06-28 22:40:19,863 INFO retry to push data, key: 127.0.0.1,63972,242689675018910
+
+2020-06-28 22:40:19,863 INFO send udp packet: 127.0.0.1,63972,242689675018910
+
+2020-06-28 22:40:29,867 INFO retry to push data, key: 127.0.0.1,63972,242689675018910
+
+2020-06-28 22:40:29,868 WARN max re-push times reached, retry times 2, key: 127.0.0.1,63972,242689675018910
+
+2020-06-28 23:33:42,603 INFO DEFAULT_GROUP@@user_service is changed, add it to push queue.
+
+2020-06-28 23:33:46,760 INFO DEFAULT_GROUP@@user_service is changed, add it to push queue.
+
+2020-06-28 23:46:04,222 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 23:46:24,034 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 23:47:13,052 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 23:47:26,253 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 23:48:31,348 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 23:48:44,347 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 23:49:26,708 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 23:49:38,450 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 23:50:31,213 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 23:50:35,042 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 23:52:50,134 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 23:52:55,794 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 23:55:09,661 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+
+2020-06-28 23:55:35,399 INFO DEFAULT_GROUP@@user-service is changed, add it to push queue.
+

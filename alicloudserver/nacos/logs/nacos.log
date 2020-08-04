@@ -1,0 +1,606 @@
+2020-06-30 00:05:53,401 INFO [capacityManagement] start correct usage
+
+2020-06-30 00:05:53,454 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-06-30 00:05:53,501 WARN clearConfigHistory start
+
+2020-06-30 00:10:27,406 WARN [HttpClientManager] Start destroying HttpClient
+
+2020-06-30 00:10:27,405 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2020-06-30 00:10:27,406 WARN [NotifyCenter] Start destroying Publisher
+
+2020-06-30 00:10:27,406 WARN [WatchFileCenter] start close
+
+2020-06-30 00:10:27,410 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/liyu/nacos/nacos/conf
+
+2020-06-30 00:10:27,410 WARN [WatchFileCenter] already closed
+
+2020-06-30 00:10:27,411 WARN [NotifyCenter] Destruction of the end
+
+2020-06-30 00:10:27,414 WARN [HttpClientManager] Destruction of the end
+
+2020-06-30 00:10:27,438 INFO Shutting down ExecutorService 'taskScheduler'
+
+2020-06-30 00:10:27,446 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2020-06-30 14:49:20,628 INFO The server IP list of Nacos is [192.168.101.35:8841, 192.168.101.35:8842, 192.168.101.35:8843, 192.168.101.35:8848]
+
+2020-06-30 14:49:20,635 INFO Starting Nacos v1.3.0-BETA on f8ffc234e52e with PID 3257 (/Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/target/nacos-server.jar started by liyu in /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/bin)
+
+2020-06-30 14:49:20,639 INFO No active profile set, falling back to default profiles: default
+
+2020-06-30 14:49:21,629 INFO Nacos is starting...
+
+2020-06-30 14:49:22,630 INFO Nacos is starting...
+
+2020-06-30 14:49:23,353 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$72740c2b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 14:49:23,469 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 14:49:23,471 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@126253fd' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 14:49:23,473 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$9748aedd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 14:49:23,477 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 14:49:23,632 INFO Nacos is starting...
+
+2020-06-30 14:49:23,905 INFO Tomcat initialized with port(s): 8841 (http)
+
+2020-06-30 14:49:23,924 INFO Initializing ProtocolHandler ["http-nio-8841"]
+
+2020-06-30 14:49:23,938 INFO Starting service [Tomcat]
+
+2020-06-30 14:49:23,938 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-06-30 14:49:23,954 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/liyu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+
+2020-06-30 14:49:24,061 INFO Initializing Spring embedded WebApplicationContext
+
+2020-06-30 14:49:24,062 INFO Root WebApplicationContext: initialization completed in 3304 ms
+
+2020-06-30 14:49:24,635 INFO Nacos is starting...
+
+2020-06-30 14:49:24,649 INFO Use Mysql as the driver
+
+2020-06-30 14:49:25,636 INFO Nacos is starting...
+
+2020-06-30 14:49:26,637 INFO Nacos is starting...
+
+2020-06-30 14:49:26,887 INFO Nacos-related cluster resource initialization
+
+2020-06-30 14:49:26,937 INFO The cluster resource is initialized
+
+2020-06-30 14:49:27,640 INFO Nacos is starting...
+
+2020-06-30 14:49:28,108 INFO Reflections took 75 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-06-30 14:49:28,209 INFO Reflections took 7 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-06-30 14:49:28,223 INFO Reflections took 6 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-06-30 14:49:28,642 INFO Nacos is starting...
+
+2020-06-30 14:49:29,369 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-06-30 14:49:29,619 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-06-30 14:49:29,646 INFO Nacos is starting...
+
+2020-06-30 14:49:30,152 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-06-30 14:49:30,202 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4fc5e095, org.springframework.security.web.context.SecurityContextPersistenceFilter@4cc6fa2a, org.springframework.security.web.header.HeaderWriterFilter@2fea7088, org.springframework.security.web.csrf.CsrfFilter@dcfda20, org.springframework.security.web.authentication.logout.LogoutFilter@61884cb1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a791b66, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@590c73d3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@435871cb, org.springframework.security.web.session.SessionManagementFilter@51cd7ffc, org.springframework.security.web.access.ExceptionTranslationFilter@f73dcd6]
+
+2020-06-30 14:49:30,355 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-06-30 14:49:30,387 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-06-30 14:49:30,458 INFO Starting ProtocolHandler ["http-nio-8841"]
+
+2020-06-30 14:49:30,462 INFO Using a shared selector for servlet write/read
+
+2020-06-30 14:49:30,509 INFO Tomcat started on port(s): 8841 (http) with context path '/nacos'
+
+2020-06-30 14:49:30,514 INFO Started Nacos in 10.717 seconds (JVM running for 11.274)
+
+2020-06-30 14:49:30,514 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/logs
+
+2020-06-30 14:49:30,515 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/conf
+
+2020-06-30 14:49:30,515 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/data
+
+2020-06-30 14:49:30,515 INFO Nacos started successfully in cluster mode. use external storage
+
+2020-06-30 14:49:36,889 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-06-30 14:49:36,890 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-06-30 14:49:36,901 INFO Completed initialization in 11 ms
+
+2020-06-30 14:59:28,722 INFO [capacityManagement] start correct usage
+
+2020-06-30 14:59:28,749 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-06-30 14:59:28,892 WARN clearConfigHistory start
+
+2020-06-30 15:04:03,893 WARN [HttpClientManager] Start destroying HttpClient
+
+2020-06-30 15:04:03,895 WARN [NotifyCenter] Start destroying Publisher
+
+2020-06-30 15:04:03,895 WARN [WatchFileCenter] start close
+
+2020-06-30 15:04:03,894 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2020-06-30 15:04:03,896 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/conf
+
+2020-06-30 15:04:03,896 WARN [WatchFileCenter] already closed
+
+2020-06-30 15:04:03,898 WARN [NotifyCenter] Destruction of the end
+
+2020-06-30 15:04:03,907 WARN [HttpClientManager] Destruction of the end
+
+2020-06-30 15:04:03,926 INFO Shutting down ExecutorService 'taskScheduler'
+
+2020-06-30 15:04:03,935 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2020-06-30 15:04:20,101 WARN [ThreadPoolManager] Destruction of the end
+
+2020-06-30 15:05:30,706 INFO The server IP list of Nacos is [192.168.101.35:8841, 192.168.101.35:8842, 192.168.101.35:8843, 192.168.101.35:8848, 192.168.31.117:8841]
+
+2020-06-30 15:05:30,711 INFO Starting Nacos v1.3.0-BETA on f8ffc234e52e with PID 3401 (/Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/target/nacos-server.jar started by liyu in /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/bin)
+
+2020-06-30 15:05:30,712 INFO No active profile set, falling back to default profiles: default
+
+2020-06-30 15:05:31,712 INFO Nacos is starting...
+
+2020-06-30 15:05:32,715 INFO Nacos is starting...
+
+2020-06-30 15:05:33,108 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$ac1a9214] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:05:33,202 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:05:33,204 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7139992f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:05:33,205 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$d0ef34c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:05:33,210 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:05:33,588 INFO Tomcat initialized with port(s): 8841 (http)
+
+2020-06-30 15:05:33,603 INFO Initializing ProtocolHandler ["http-nio-8841"]
+
+2020-06-30 15:05:33,615 INFO Starting service [Tomcat]
+
+2020-06-30 15:05:33,616 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-06-30 15:05:33,626 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/liyu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+
+2020-06-30 15:05:33,712 INFO Initializing Spring embedded WebApplicationContext
+
+2020-06-30 15:05:33,712 INFO Root WebApplicationContext: initialization completed in 2915 ms
+
+2020-06-30 15:05:33,716 INFO Nacos is starting...
+
+2020-06-30 15:05:34,008 INFO Use Mysql as the driver
+
+2020-06-30 15:05:34,720 INFO Nacos is starting...
+
+2020-06-30 15:05:34,757 INFO Nacos-related cluster resource initialization
+
+2020-06-30 15:05:34,784 INFO The cluster resource is initialized
+
+2020-06-30 15:05:35,224 INFO Reflections took 40 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-06-30 15:05:35,259 INFO Reflections took 3 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-06-30 15:05:35,266 INFO Reflections took 4 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-06-30 15:05:35,723 INFO Nacos is starting...
+
+2020-06-30 15:05:35,921 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-06-30 15:05:36,109 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-06-30 15:05:36,425 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-06-30 15:05:36,462 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2fea7088, org.springframework.security.web.context.SecurityContextPersistenceFilter@1080b026, org.springframework.security.web.header.HeaderWriterFilter@354fc8f0, org.springframework.security.web.csrf.CsrfFilter@306851c7, org.springframework.security.web.authentication.logout.LogoutFilter@f73dcd6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b07730f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@dcfda20, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40499e4f, org.springframework.security.web.session.SessionManagementFilter@4678a2eb, org.springframework.security.web.access.ExceptionTranslationFilter@4879f0f2]
+
+2020-06-30 15:05:36,551 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-06-30 15:05:36,584 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-06-30 15:05:36,643 INFO Starting ProtocolHandler ["http-nio-8841"]
+
+2020-06-30 15:05:36,647 INFO Using a shared selector for servlet write/read
+
+2020-06-30 15:05:36,675 INFO Tomcat started on port(s): 8841 (http) with context path '/nacos'
+
+2020-06-30 15:05:36,679 INFO Started Nacos in 6.88 seconds (JVM running for 7.438)
+
+2020-06-30 15:05:36,680 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/logs
+
+2020-06-30 15:05:36,680 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/conf
+
+2020-06-30 15:05:36,680 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/data
+
+2020-06-30 15:05:36,680 INFO Nacos started successfully in cluster mode. use external storage
+
+2020-06-30 15:05:39,164 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-06-30 15:05:39,164 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-06-30 15:05:39,173 INFO Completed initialization in 9 ms
+
+2020-06-30 15:07:35,946 WARN [HttpClientManager] Start destroying HttpClient
+
+2020-06-30 15:07:35,946 WARN [WatchFileCenter] start close
+
+2020-06-30 15:07:35,947 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2020-06-30 15:07:35,947 WARN [NotifyCenter] Start destroying Publisher
+
+2020-06-30 15:07:35,947 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/conf
+
+2020-06-30 15:07:35,947 WARN [WatchFileCenter] already closed
+
+2020-06-30 15:07:35,949 WARN [NotifyCenter] Destruction of the end
+
+2020-06-30 15:07:35,951 WARN [HttpClientManager] Destruction of the end
+
+2020-06-30 15:07:35,961 INFO Shutting down ExecutorService 'taskScheduler'
+
+2020-06-30 15:07:35,964 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2020-06-30 15:07:59,970 WARN [ThreadPoolManager] Destruction of the end
+
+2020-06-30 15:09:00,424 INFO The server IP list of Nacos is [192.168.31.117:8841, 192.168.31.117:8842, 192.168.31.117:8843]
+
+2020-06-30 15:09:00,429 INFO Starting Nacos v1.3.0-BETA on f8ffc234e52e with PID 3494 (/Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/target/nacos-server.jar started by liyu in /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/bin)
+
+2020-06-30 15:09:00,431 INFO No active profile set, falling back to default profiles: default
+
+2020-06-30 15:09:01,429 INFO Nacos is starting...
+
+2020-06-30 15:09:02,400 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$a3f37404] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:09:02,432 INFO Nacos is starting...
+
+2020-06-30 15:09:02,486 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:09:02,489 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4dc27487' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:09:02,490 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$c8c816b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:09:02,495 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:09:03,095 INFO Tomcat initialized with port(s): 8841 (http)
+
+2020-06-30 15:09:03,165 INFO Initializing ProtocolHandler ["http-nio-8841"]
+
+2020-06-30 15:09:03,203 INFO Starting service [Tomcat]
+
+2020-06-30 15:09:03,204 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-06-30 15:09:03,237 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/liyu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+
+2020-06-30 15:09:03,397 INFO Initializing Spring embedded WebApplicationContext
+
+2020-06-30 15:09:03,397 INFO Root WebApplicationContext: initialization completed in 2900 ms
+
+2020-06-30 15:09:03,434 INFO Nacos is starting...
+
+2020-06-30 15:09:03,764 INFO Use Mysql as the driver
+
+2020-06-30 15:09:04,438 INFO Nacos is starting...
+
+2020-06-30 15:09:04,582 INFO Nacos-related cluster resource initialization
+
+2020-06-30 15:09:04,608 INFO The cluster resource is initialized
+
+2020-06-30 15:09:05,120 INFO Reflections took 47 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-06-30 15:09:05,155 INFO Reflections took 3 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-06-30 15:09:05,201 INFO Reflections took 8 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-06-30 15:09:05,443 INFO Nacos is starting...
+
+2020-06-30 15:09:05,828 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-06-30 15:09:06,030 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-06-30 15:09:06,340 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-06-30 15:09:06,368 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75ed9710, org.springframework.security.web.context.SecurityContextPersistenceFilter@30d4b288, org.springframework.security.web.header.HeaderWriterFilter@5c87bfe2, org.springframework.security.web.csrf.CsrfFilter@a4b2d8f, org.springframework.security.web.authentication.logout.LogoutFilter@6b9ce1bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40f1be1b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@14c01636, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4fc5e095, org.springframework.security.web.session.SessionManagementFilter@40499e4f, org.springframework.security.web.access.ExceptionTranslationFilter@6d304f9d]
+
+2020-06-30 15:09:06,448 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-06-30 15:09:06,448 INFO Nacos is starting...
+
+2020-06-30 15:09:06,480 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-06-30 15:09:06,543 INFO Starting ProtocolHandler ["http-nio-8841"]
+
+2020-06-30 15:09:06,552 INFO Using a shared selector for servlet write/read
+
+2020-06-30 15:09:06,583 INFO Tomcat started on port(s): 8841 (http) with context path '/nacos'
+
+2020-06-30 15:09:06,586 INFO Started Nacos in 6.981 seconds (JVM running for 7.544)
+
+2020-06-30 15:09:06,587 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/logs
+
+2020-06-30 15:09:06,587 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/conf
+
+2020-06-30 15:09:06,587 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/data
+
+2020-06-30 15:09:06,587 INFO Nacos started successfully in cluster mode. use external storage
+
+2020-06-30 15:09:15,284 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-06-30 15:09:15,284 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-06-30 15:09:15,294 INFO Completed initialization in 10 ms
+
+2020-06-30 15:15:14,359 WARN [NotifyCenter] Start destroying Publisher
+
+2020-06-30 15:15:14,359 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2020-06-30 15:15:14,360 WARN [WatchFileCenter] start close
+
+2020-06-30 15:15:14,359 WARN [HttpClientManager] Start destroying HttpClient
+
+2020-06-30 15:15:14,361 WARN [WatchFileCenter] start to shutdown this watcher which is watch : /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/conf
+
+2020-06-30 15:15:14,361 WARN [WatchFileCenter] already closed
+
+2020-06-30 15:15:14,364 WARN [HttpClientManager] Destruction of the end
+
+2020-06-30 15:15:14,364 WARN [NotifyCenter] Destruction of the end
+
+2020-06-30 15:15:14,374 INFO Shutting down ExecutorService 'taskScheduler'
+
+2020-06-30 15:15:14,376 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2020-06-30 15:15:29,803 WARN [ThreadPoolManager] Destruction of the end
+
+2020-06-30 15:16:38,741 INFO Starting Nacos v1.3.0-BETA on f8ffc234e52e with PID 3602 (/Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/target/nacos-server.jar started by liyu in /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/bin)
+
+2020-06-30 15:16:38,742 INFO The following profiles are active: standalone
+
+2020-06-30 15:16:40,460 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$6259c471] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:16:40,546 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:16:40,548 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7139992f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:16:40,551 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$872e6723] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:16:40,555 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:16:41,021 INFO Tomcat initialized with port(s): 8080 (http)
+
+2020-06-30 15:16:41,048 INFO Starting service [Tomcat]
+
+2020-06-30 15:16:41,049 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-06-30 15:16:41,060 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/liyu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+
+2020-06-30 15:16:41,141 INFO Initializing Spring embedded WebApplicationContext
+
+2020-06-30 15:16:41,141 INFO Root WebApplicationContext: initialization completed in 2343 ms
+
+2020-06-30 15:16:41,390 INFO Use Mysql as the driver
+
+2020-06-30 15:16:42,015 INFO Nacos-related cluster resource initialization
+
+2020-06-30 15:16:42,025 INFO The cluster resource is initialized
+
+2020-06-30 15:16:42,418 INFO Reflections took 32 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-06-30 15:16:42,447 INFO Reflections took 2 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-06-30 15:16:42,452 INFO Reflections took 2 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-06-30 15:16:43,314 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-06-30 15:16:43,519 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-06-30 15:16:43,841 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-06-30 15:16:43,875 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2fea7088, org.springframework.security.web.context.SecurityContextPersistenceFilter@1080b026, org.springframework.security.web.header.HeaderWriterFilter@354fc8f0, org.springframework.security.web.csrf.CsrfFilter@306851c7, org.springframework.security.web.authentication.logout.LogoutFilter@f73dcd6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b07730f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@dcfda20, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40499e4f, org.springframework.security.web.session.SessionManagementFilter@4678a2eb, org.springframework.security.web.access.ExceptionTranslationFilter@4879f0f2]
+
+2020-06-30 15:16:43,957 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-06-30 15:16:43,985 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-06-30 15:16:44,220 INFO Tomcat started on port(s): 8080 (http) with context path '/nacos'
+
+2020-06-30 15:16:44,224 INFO Started Nacos in 6.173 seconds (JVM running for 6.714)
+
+2020-06-30 15:16:44,224 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/logs
+
+2020-06-30 15:16:44,226 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/conf
+
+2020-06-30 15:16:44,227 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/data
+
+2020-06-30 15:16:44,227 INFO Nacos started successfully in stand alone mode. use external storage
+
+2020-06-30 15:17:52,292 WARN [HttpClientManager] Start destroying HttpClient
+
+2020-06-30 15:17:52,292 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2020-06-30 15:17:52,292 WARN [NotifyCenter] Start destroying Publisher
+
+2020-06-30 15:17:52,293 WARN [NotifyCenter] Destruction of the end
+
+2020-06-30 15:17:52,293 INFO Shutting down ExecutorService 'taskScheduler'
+
+2020-06-30 15:17:52,297 WARN [HttpClientManager] Destruction of the end
+
+2020-06-30 15:17:52,299 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2020-06-30 15:18:08,212 WARN [ThreadPoolManager] Destruction of the end
+
+2020-06-30 15:21:01,333 INFO Starting Nacos v1.3.0-BETA on f8ffc234e52e with PID 3654 (/Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/target/nacos-server.jar started by liyu in /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/bin)
+
+2020-06-30 15:21:01,333 INFO The following profiles are active: standalone
+
+2020-06-30 15:21:03,027 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$ca7bcc5f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:21:03,108 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:21:03,110 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6933b6c6' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:21:03,112 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$ef506f11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:21:03,116 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:21:03,591 INFO Tomcat initialized with port(s): 8080 (http)
+
+2020-06-30 15:21:03,616 INFO Starting service [Tomcat]
+
+2020-06-30 15:21:03,616 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-06-30 15:21:03,626 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/liyu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+
+2020-06-30 15:21:03,707 INFO Initializing Spring embedded WebApplicationContext
+
+2020-06-30 15:21:03,707 INFO Root WebApplicationContext: initialization completed in 2326 ms
+
+2020-06-30 15:21:03,934 INFO Use Mysql as the driver
+
+2020-06-30 15:21:04,536 INFO Nacos-related cluster resource initialization
+
+2020-06-30 15:21:04,545 INFO The cluster resource is initialized
+
+2020-06-30 15:21:05,031 INFO Reflections took 49 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-06-30 15:21:05,068 INFO Reflections took 4 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-06-30 15:21:05,076 INFO Reflections took 3 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-06-30 15:21:05,853 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-06-30 15:21:06,014 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-06-30 15:21:06,292 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-06-30 15:21:06,321 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14c01636, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c87bfe2, org.springframework.security.web.header.HeaderWriterFilter@a4b2d8f, org.springframework.security.web.csrf.CsrfFilter@1080b026, org.springframework.security.web.authentication.logout.LogoutFilter@7a791b66, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40499e4f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4cc6fa2a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@590c73d3, org.springframework.security.web.session.SessionManagementFilter@6d304f9d, org.springframework.security.web.access.ExceptionTranslationFilter@5b07730f]
+
+2020-06-30 15:21:06,399 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-06-30 15:21:06,422 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-06-30 15:21:06,632 INFO Tomcat started on port(s): 8080 (http) with context path '/nacos'
+
+2020-06-30 15:21:06,636 INFO Started Nacos in 6.023 seconds (JVM running for 6.555)
+
+2020-06-30 15:21:06,636 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/logs
+
+2020-06-30 15:21:06,639 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/conf
+
+2020-06-30 15:21:06,639 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/data
+
+2020-06-30 15:21:06,639 INFO Nacos started successfully in stand alone mode. use external storage
+
+2020-06-30 15:30:05,082 WARN [HttpClientManager] Start destroying HttpClient
+
+2020-06-30 15:30:05,082 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2020-06-30 15:30:05,082 WARN [NotifyCenter] Start destroying Publisher
+
+2020-06-30 15:30:05,086 WARN [NotifyCenter] Destruction of the end
+
+2020-06-30 15:30:05,087 WARN [HttpClientManager] Destruction of the end
+
+2020-06-30 15:30:05,099 INFO Shutting down ExecutorService 'taskScheduler'
+
+2020-06-30 15:30:05,103 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2020-06-30 15:30:30,855 WARN [ThreadPoolManager] Destruction of the end
+
+2020-06-30 15:30:32,042 INFO Starting Nacos v1.3.0-BETA on f8ffc234e52e with PID 3730 (/Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/target/nacos-server.jar started by liyu in /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/bin)
+
+2020-06-30 15:30:32,043 INFO The following profiles are active: standalone
+
+2020-06-30 15:30:33,783 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$eb81ba44] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:30:33,863 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:30:33,865 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5340477f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:30:33,868 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$10565cf6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:30:33,873 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:30:34,344 INFO Tomcat initialized with port(s): 8080 (http)
+
+2020-06-30 15:30:34,374 INFO Starting service [Tomcat]
+
+2020-06-30 15:30:34,374 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-06-30 15:30:34,387 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/liyu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+
+2020-06-30 15:30:34,481 INFO Initializing Spring embedded WebApplicationContext
+
+2020-06-30 15:30:34,481 INFO Root WebApplicationContext: initialization completed in 2392 ms
+
+2020-06-30 15:30:34,747 INFO Use Mysql as the driver
+
+2020-06-30 15:30:35,386 INFO Nacos-related cluster resource initialization
+
+2020-06-30 15:30:35,394 INFO The cluster resource is initialized
+
+2020-06-30 15:30:35,793 INFO Reflections took 35 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-06-30 15:30:35,824 INFO Reflections took 4 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-06-30 15:30:35,829 INFO Reflections took 3 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-06-30 15:30:36,525 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-06-30 15:30:37,371 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-06-30 15:30:37,887 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-06-30 15:30:37,932 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1fdfafd2, org.springframework.security.web.context.SecurityContextPersistenceFilter@4879f0f2, org.springframework.security.web.header.HeaderWriterFilter@75f5fd58, org.springframework.security.web.csrf.CsrfFilter@75c9e76b, org.springframework.security.web.authentication.logout.LogoutFilter@58ebfd03, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@354fc8f0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b43fbf6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a4b2d8f, org.springframework.security.web.session.SessionManagementFilter@306851c7, org.springframework.security.web.access.ExceptionTranslationFilter@5c3b6c6e]
+
+2020-06-30 15:30:38,049 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-06-30 15:30:38,074 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-06-30 15:30:38,322 INFO Tomcat started on port(s): 8080 (http) with context path '/nacos'
+
+2020-06-30 15:30:38,325 INFO Started Nacos in 7.005 seconds (JVM running for 7.58)
+
+2020-06-30 15:30:38,326 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/logs
+
+2020-06-30 15:30:38,328 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/conf
+
+2020-06-30 15:30:38,328 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/data
+
+2020-06-30 15:30:38,329 INFO Nacos started successfully in stand alone mode. use external storage
+
+2020-06-30 15:40:36,084 INFO [capacityManagement] start correct usage
+
+2020-06-30 15:40:36,104 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-06-30 15:40:36,183 WARN clearConfigHistory start
+
+2020-06-30 15:40:55,722 WARN [HttpClientManager] Start destroying HttpClient
+
+2020-06-30 15:40:55,722 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2020-06-30 15:40:55,722 WARN [NotifyCenter] Start destroying Publisher
+
+2020-06-30 15:40:55,724 WARN [NotifyCenter] Destruction of the end
+
+2020-06-30 15:40:55,725 WARN [HttpClientManager] Destruction of the end
+
+2020-06-30 15:40:55,727 INFO Shutting down ExecutorService 'taskScheduler'
+
+2020-06-30 15:40:55,729 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2020-06-30 15:41:01,581 WARN [ThreadPoolManager] Destruction of the end
+

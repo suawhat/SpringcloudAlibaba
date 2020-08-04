@@ -1,0 +1,28 @@
+2020-06-30 00:10:30,092 ERROR [db-error] master db 127.0.0.1 down.
+
+2020-06-30 00:10:30,096 ERROR [master-db] master db not found.
+
+2020-06-30 14:49:25,777 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2020-06-30 14:49:28,796 WARN isQuickStart:false
+
+2020-06-30 15:05:34,431 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2020-06-30 15:05:35,593 WARN isQuickStart:false
+
+2020-06-30 15:09:04,142 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2020-06-30 15:09:05,492 WARN isQuickStart:false
+
+2020-06-30 15:16:41,679 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2020-06-30 15:16:42,830 WARN isQuickStart:false
+
+2020-06-30 15:21:04,215 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2020-06-30 15:21:05,423 WARN isQuickStart:false
+
+2020-06-30 15:30:35,060 WARN [master-db] jdbc:mysql://127.0.0.1:3306/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
+
+2020-06-30 15:30:36,116 WARN isQuickStart:false
+

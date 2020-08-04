@@ -1,0 +1,26 @@
+spring:
+  profiles:
+    active: dev
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      #全局http超时设置
+      httpclient:
+        connect-timeout: 1000
+        response-timeout: 5s
+      routes:
+        - id: 'user_route'
+          predicates:
+            - Path=/user/**
+          uri: "lb://user-service"
+          #单个路由超时设置
+          metadata:
+            response-timeout: 200
+            connect-timeout: 200
+        - id: 'product_route'
+          predicates:
+            - Path=/product/**
+          uri: "lb://product-service"

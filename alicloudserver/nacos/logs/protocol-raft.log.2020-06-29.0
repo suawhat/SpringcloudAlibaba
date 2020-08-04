@@ -1,0 +1,10 @@
+2020-06-30 00:04:06,669 INFO Initializes the Raft protocol, raft-config info : {}
+
+2020-06-30 00:04:07,363 INFO ========= The raft protocol is starting... =========
+
+2020-06-30 00:04:07,888 INFO ========= The raft protocol start finished... =========
+
+2020-06-30 00:10:27,482 INFO ========= The raft protocol is starting to close =========
+
+2020-06-30 00:10:27,487 INFO ========= The raft protocol has been closed =========
+

@@ -1,0 +1,38 @@
+2020-06-29 00:11:06,363 INFO [dump-all-ok] user-service-dev.yaml+DEFAULT_GROUP, 1593360297636, length=23, md5=b2db0be5c080cffdb5af7531cd5cd097
+
+2020-06-29 00:11:06,566 INFO config dump job cost time : 318 ms
+
+2020-06-29 09:52:10,889 INFO config dump job cost time : 40 ms
+
+2020-06-29 23:29:56,664 INFO [dump-all-ok] user-service-dev.yaml+DEFAULT_GROUP, 1593403395000, length=22, md5=1e2d4d612d2f6f104950f7590d9671bb
+
+2020-06-29 23:29:56,665 INFO [dump-all-ok] user-service-dev.yaml+DEFAULT_GROUP, 1593404086000, length=26, md5=c06c454b63651f91f803e3677870edb6
+
+2020-06-29 23:29:56,665 INFO [dump-all-ok] user-service-test.yaml+DEFAULT_GROUP, 1593438566000, length=27, md5=edcefaec3a4d44291f090e5836715744
+
+2020-06-29 23:29:56,686 INFO config dump job cost time : 70 ms
+
+2020-06-29 23:52:23,591 INFO [dump-all-ok] user-service-dev.yaml+DEFAULT_GROUP, 1593403395000, length=22, md5=1e2d4d612d2f6f104950f7590d9671bb
+
+2020-06-29 23:52:23,593 INFO [dump-all-ok] user-service-dev.yaml+DEFAULT_GROUP, 1593404086000, length=26, md5=c06c454b63651f91f803e3677870edb6
+
+2020-06-29 23:52:23,593 INFO [dump-all-ok] user-service-test.yaml+DEFAULT_GROUP, 1593438566000, length=27, md5=edcefaec3a4d44291f090e5836715744
+
+2020-06-29 23:52:23,603 INFO config dump job cost time : 53 ms
+
+2020-06-29 23:54:06,504 INFO [dump-all-ok] user-service-dev.yaml+DEFAULT_GROUP, 1593403395000, length=22, md5=1e2d4d612d2f6f104950f7590d9671bb
+
+2020-06-29 23:54:06,505 INFO [dump-all-ok] user-service-dev.yaml+DEFAULT_GROUP, 1593404086000, length=26, md5=c06c454b63651f91f803e3677870edb6
+
+2020-06-29 23:54:06,505 INFO [dump-all-ok] user-service-test.yaml+DEFAULT_GROUP, 1593438566000, length=27, md5=edcefaec3a4d44291f090e5836715744
+
+2020-06-29 23:54:06,514 INFO config dump job cost time : 50 ms
+
+2020-06-29 23:55:53,458 INFO [dump-all-ok] user-service-dev.yaml+DEFAULT_GROUP, 1593403395000, length=22, md5=1e2d4d612d2f6f104950f7590d9671bb
+
+2020-06-29 23:55:53,459 INFO [dump-all-ok] user-service-dev.yaml+DEFAULT_GROUP, 1593404086000, length=26, md5=c06c454b63651f91f803e3677870edb6
+
+2020-06-29 23:55:53,460 INFO [dump-all-ok] user-service-test.yaml+DEFAULT_GROUP, 1593438566000, length=27, md5=edcefaec3a4d44291f090e5836715744
+
+2020-06-29 23:55:53,474 INFO config dump job cost time : 53 ms
+

@@ -1,0 +1,67 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/bin/java  -Xms512m -Xmx512m -Xmn256m -Dnacos.standalone=true -Dnacos.member.list= -Djava.ext.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/ext -Xloggc:/Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/logs/nacos_gc.log -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=10 -XX:GCLogFileSize=100M -Dloader.path=/Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/plugins/health,/Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/plugins/cmdb,/Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/plugins/mysql -Dnacos.home=/Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos -jar /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/target/nacos-server.jar  --spring.config.location=classpath:/,classpath:/config/,file:./,file:./config/,file:/Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/conf/ --logging.config=/Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/conf/nacos-logback.xml --server.max-http-header-size=524288
+2020-06-30 15:30:30,855 WARN [ThreadPoolManager] Destruction of the end
+
+
+         ,--.
+       ,--.'|
+   ,--,:  : |                                           Nacos 1.3.0-BETA
+,`--.'`|  ' :                       ,---.               Running in stand alone mode, All function modules
+|   :  :  | |                      '   ,'\   .--.--.    Port: 
+:   |   \ | :  ,--.--.     ,---.  /   /   | /  /    '   Pid: 3730
+|   : '  '; | /       \   /     \.   ; ,. :|  :  /`./   Console: http://192.168.31.117:/nacos/index.html
+'   ' ;.    ;.--.  .-. | /    / ''   | |: :|  :  ;_
+|   | | \   | \__\/: . ..    ' / '   | .; : \  \    `.      https://nacos.io
+'   : |  ; .' ," .--.; |'   ; :__|   :    |  `----.   \
+|   | '`--'  /  /  ,.  |'   | '.'|\   \  /  /  /`--'  /
+'   : |     ;  :   .'   \   :    : `----'  '--'.     /
+;   |.'     |  ,     .-./\   \  /            `--'---'
+'---'        `--`---'     `----'
+
+2020-06-30 15:30:33,783 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$eb81ba44] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:30:33,863 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:30:33,865 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5340477f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:30:33,868 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$10565cf6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:30:33,873 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-06-30 15:30:34,344 INFO Tomcat initialized with port(s): 8080 (http)
+
+2020-06-30 15:30:34,481 INFO Root WebApplicationContext: initialization completed in 2392 ms
+
+2020-06-30 15:30:36,525 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-06-30 15:30:37,371 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-06-30 15:30:37,887 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-06-30 15:30:37,932 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1fdfafd2, org.springframework.security.web.context.SecurityContextPersistenceFilter@4879f0f2, org.springframework.security.web.header.HeaderWriterFilter@75f5fd58, org.springframework.security.web.csrf.CsrfFilter@75c9e76b, org.springframework.security.web.authentication.logout.LogoutFilter@58ebfd03, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@354fc8f0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b43fbf6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a4b2d8f, org.springframework.security.web.session.SessionManagementFilter@306851c7, org.springframework.security.web.access.ExceptionTranslationFilter@5c3b6c6e]
+
+2020-06-30 15:30:38,049 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-06-30 15:30:38,074 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-06-30 15:30:38,322 INFO Tomcat started on port(s): 8080 (http) with context path '/nacos'
+
+2020-06-30 15:30:38,326 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/logs
+
+2020-06-30 15:30:38,328 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/conf
+
+2020-06-30 15:30:38,328 INFO Nacos Log files: /Users/liyu/IdeaProjects/cloud-alibaba/alicloudserver/nacos/data
+
+2020-06-30 15:30:38,329 INFO Nacos started successfully in stand alone mode. use external storage
+
+2020-06-30 15:40:55,722 WARN [NotifyCenter] Start destroying Publisher
+
+2020-06-30 15:40:55,722 WARN [ThreadPoolManager] Start destroying ThreadPool
+
+2020-06-30 15:40:55,724 WARN [NotifyCenter] Destruction of the end
+
+2020-06-30 15:40:55,727 INFO Shutting down ExecutorService 'taskScheduler'
+
+2020-06-30 15:40:55,729 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
+2020-06-30 15:41:01,581 WARN [ThreadPoolManager] Destruction of the end
+
